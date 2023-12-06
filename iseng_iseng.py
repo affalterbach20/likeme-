@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 import time
 
-st.title("Do You like me?")
+st.title("Do you like me?")
 gambar = st.image("emoji.jpg",width=300)
 col1,col2 = st.columns([1,2],gap="small")
 with col1:
